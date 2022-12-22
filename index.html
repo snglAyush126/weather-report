@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Weather</title>
+    <link rel="stylesheet" href="css/stylesw.css">
+  </head>
+  <body>
+    <div id="full_body">
+    <nav id="navbar">
+        <div id="logo">
+            <img src="image/logo.jpg" alt="weathreport.com">
+        </div>
+        <div >
+          <h1 class="h-primary">SEE WEATHER AT YOUR LOCATION</h1>
+        </div>
+      </nav>
+  <section id="home">
+<form  action="/" method="post" id="home" >
+<div class="lb">
+    <label for="cityinput"> LOCATION (CITY/STATE)</label>
+</div>
+<div class="lb">
+      <input id="cityinput" type="text" name="city" placeholder="Delhi">
+</div>
+<div class="lb">
+  <button type="submit" name="button">Go</button>
+</div>
+    </form>
+  <script src="weather.js" charset="utf-8"></script>
+</section>
+  </div>
+  </body>
+</html>
